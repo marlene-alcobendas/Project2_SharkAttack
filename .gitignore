@@ -1,0 +1,122 @@
+# Git ignore recommended for a Python / Jupyter data analysis project
+# Adjust as needed. Lines starting with "# OPTIONAL" are suggestions you can
+# uncomment if you want to ignore dataset files or other outputs.
+
+### Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+~*
+
+### C extensions
+*.so
+
+### Distribution / packaging
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+### Virtual environments
+venv/
+.venv/
+env/
+/.env
+ENV/
+env.bak/
+venv.bak/
+
+### PyInstaller
+*.manifest
+*.spec
+
+### Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+### Unit test / coverage reports
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+hypothesis/
+
+### Jupyter Notebook
+.ipynb_checkpoints
+# Jupyter notebook extensions
+.jupyter/
+
+### IPython
+profile_default/
+ipython_config.py
+
+### pyenv
+.python-version
+
+### pipenv
+Pipfile.lock
+
+### PEP 582; used by e.g. python-is-python3 package
+__pypackages__/
+
+### pyright
+.pyright/
+
+### IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+### macOS
+.DS_Store
+.AppleDouble
+._*
+
+### Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Logs and databases
+*.log
+*.sql
+*.sqlite
+
+### Temporary files
+*.tmp
+*.temp
+*~
+*.swp
+
+### Data and outputs (OPTIONAL)
+# Many projects keep source data under version control, but large CSVs or
+# generated outputs are often ignored. Uncomment any lines below to ignore
+# datasets or results directories.
+# *.csv
+# *.tsv
+# data/
+# datasets/
+# outputs/
+# results/
+
+### Large binary files (OPTIONAL)
+# *.zip
+# *.tar.gz
+# *.h5
+# *.pkl
+
+### Project-specific (add rules below)
+# GSAF5.csv is a dataset in this repo; uncomment to ignore it if you prefer not
+# to track data files in Git:
+# GSAF5.csv
+
