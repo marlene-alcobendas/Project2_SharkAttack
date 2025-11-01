@@ -42,5 +42,5 @@ def standardize_text(
             .str.lower()
             .str.replace(" ", "_")
         )
-
     return df
+
